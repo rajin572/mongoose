@@ -12,3 +12,6 @@ start using npm strat
 6. npm i cors
 7. npm i --save-dev @types/cors
 8. npm i --save-dev @types/express
+
+
+Route (for create routers) -> controller (router controller to req or res data) -> service(send user data to controller) -> model(schema and model)-> inerface(create interface)

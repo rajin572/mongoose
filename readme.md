@@ -4,10 +4,7 @@
 4. npm install mongoose --save
 5. npm i ts-node-dev --save-dev
 
-
-
 start using npm strat
-
 
 6. npm i cors
 7. npm i --save-dev @types/cors

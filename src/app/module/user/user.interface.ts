@@ -10,3 +10,8 @@ export interface IUser {
     gender: 'male' | 'female';
     contactNum: string
   }
+
+  
+export interface IUserMethods {
+  fullName(): string;
+}

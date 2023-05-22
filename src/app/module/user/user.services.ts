@@ -16,6 +16,7 @@ export const getUserByIdFromDB = async (payload:string): Promise<IUser | null> =
 export const createUserToDB = async (payload: IUser):Promise<IUser> => {
     const user = new User(payload)
     await user.save();
+    user.fullName()
     return user
   }
 

@@ -18,5 +18,5 @@ export const createUserToDB = async (payload: IUser):Promise<IUser> => {
     await user.save();
     user.fullName()
     return user
-  }
+}
 

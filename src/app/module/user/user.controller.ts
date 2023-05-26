@@ -20,7 +20,6 @@ export const getUserByID = async (req:Request, res:Response) => {
     
 }
 
-
 export const createUser = async (req: Request, res: Response) => {
     const data = req.body
     const user = await createUserToDB(data);

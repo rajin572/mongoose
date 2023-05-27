@@ -7,6 +7,7 @@ export const getUserFromDB = async ():Promise<IUser[]> => {
     return users
 }
 
+
 export const getUserByIdFromDB = async (payload:string): Promise<IUser | null> =>{
     const user = await User.findOne({id:payload})    
     return user
